@@ -33,4 +33,5 @@
     "window.titleBarStyle": "custom",
     "git.enableSmartCommit": true,
     "editor.tabSize": 2,
+    "git.autofetch": true,
 }
