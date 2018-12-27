@@ -40,23 +40,36 @@ ds_fucking_store() {
     sudo find / -name ".DS_Store" -depth -exec rm {} \;
 }
 
+# enable color support of ls and also add handy aliases
+# if [ -x /usr/bin/dircolors ]; then
+#     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
+#     alias ls='ls --color=auto'
+#     alias dir='dir --color=auto'
+#     alias vdir='vdir --color=auto'
 
-# HTTP/REST API
-jsonapi() {
-    http "$@" Accept:application/vnd.api+json Content-Type:application/vnd.api+json
-}
+#     alias grep='grep --color=auto'
+#     alias fgrep='fgrep --color=auto'
+#     alias egrep='egrep --color=auto'
+# fi
 
-pyserver() {
-    if [[ $OSTYPE == darwin* ]] ; then
-        /usr/bin/open -a "/Applications/Google Chrome.app" 'http://127.0.0.1:8000/'
-    else
-        google-chrome "http://0.0.0.0:8000/"
-    fi
-    python -m SimpleHTTPServer 8000
-}
+# enable color support of ls and also add handy aliases
+alias ls='ls --color=auto'
+alias dir='dir --color=auto'
+alias vdir='vdir --color=auto'
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+# some more ls aliases
+alias ll='ls -l'
+alias la='ls -A'
+alias l='ls -CF'
+alias em='emacs -nw'
+alias dd='dd status=progress'
+alias _='sudo'
 
 # WTF 😇
-# alias russian-roulette='[ $(( $RANDOM % 6 )) == 0 ] && rm -rf / || echo "You live"'
+alias russian-roulette='[ $(( $RANDOM % 6 )) == 0 ] && rm -rf / || echo "You live"'
 
 #################
 #    PROXY      #
