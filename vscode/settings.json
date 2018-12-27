@@ -1,0 +1,36 @@
+{
+    "docker.showExplorer": true,
+    "editor.autoIndent": true,
+    "editor.rulers": [120],
+    "files.exclude": {
+        "**/.git": false,
+        "**/*.js": {
+            "when": "$(basename).ts"
+        },
+        "**/*.js.map": true
+    },
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Cobalt2",
+    "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 18,
+    "editor.letterSpacing": 0.5,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontWeight": "400",
+    "prettier.eslintIntegration": true,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "solid",
+    "editor.renderWhitespace": "all",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 2000,
+    "terminal.integrated.lineHeight": 1.6,
+    "window.zoomLevel": 0,
+    "editor.minimap.enabled": false,
+    "window.titleBarStyle": "custom",
+    "git.enableSmartCommit": true,
+    "editor.tabSize": 2,
+}
