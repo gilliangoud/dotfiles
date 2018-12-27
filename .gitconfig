@@ -32,7 +32,7 @@
 	user = gilliangoud
 
 [commit]
-	gpgsign = true
+	gpgsign = false
 
 [push]
 	default = current
