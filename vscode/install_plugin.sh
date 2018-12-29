@@ -29,3 +29,4 @@ code --install-extension xabikos.JavaScriptSnippets
 code --install-extension mrmlnc.vscode-scss
 code --install-extension anseki.vscode-color
 code --install-extension felipecaputo.git-project-manager
+code --install-extension gruntfuggly.todo-tree
