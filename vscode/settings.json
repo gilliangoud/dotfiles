@@ -49,5 +49,6 @@
             "foreground": "red",
             "iconColour": "yellow"
         }
-    }
+    },
+    "breadcrumbs.enabled": true
 }
