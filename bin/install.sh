@@ -40,8 +40,8 @@ info 'Install VSCode configuration'
 link_files ../vscode/keybindings.json ~/.config/Code/User/keybindings.json
 link_files ../vscode/settings.json    ~/.config/Code/User/settings.json
 
-info 'Install VSCode plugins'
-source "$(dirname "${BASH_SOURCE[0]}")"/../vscode/install_plugin.sh
+# info 'Install VSCode plugins'
+# source "$(dirname "${BASH_SOURCE[0]}")"/../vscode/install_plugin.sh
 
 
 echo ''
