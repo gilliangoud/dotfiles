@@ -30,6 +30,7 @@
 
 [github]
 	user = gilliangoud
+	
 
 [commit]
 	gpgsign = false
