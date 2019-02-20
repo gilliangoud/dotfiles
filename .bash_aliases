@@ -6,6 +6,8 @@ alias ls='ls $LS_OPTIONS -hF'
 alias ll='ls $LS_OPTIONS -lAhF'
 alias hosts='sudo $EDITOR /etc/hosts'
 
+alias k = 'kubectl'
+
 # mv, rm, cp
 alias mv='mv -v'
 # alias rm='rm -i -v'
