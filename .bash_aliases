@@ -5,6 +5,9 @@ alias ..="cd .."
 alias ls='ls $LS_OPTIONS -hF'
 alias ll='ls $LS_OPTIONS -lAhF'
 alias hosts='sudo $EDITOR /etc/hosts'
+alias k='kubectl '
+alias klog='kubectl logs '
+alias kpod='kubectl get pods '
 
 # mv, rm, cp
 alias mv='mv -v'
