@@ -31,3 +31,10 @@ code --install-extension anseki.vscode-color
 code --install-extension felipecaputo.git-project-manager
 code --install-extension gruntfuggly.todo-tree
 code --install-extension nrwl.angular-console
+code --install-extension oderwat.indent-rainbow
+code --install-extension humao.rest-client
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension oenraads.bracket-pair-colorize
+code --install-extension chakrounanas.turbo-console-log
+code --install-extension formulahendry.auto-complete-tag
+code --install-extension zignd.html-css-class-completion
