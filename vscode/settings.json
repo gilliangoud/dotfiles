@@ -50,5 +50,10 @@
             "iconColour": "yellow"
         }
     },
-    "breadcrumbs.enabled": true
+    "breadcrumbs.enabled": true,
+    "cSpell.userWords": [
+        "goud",
+        "nestjs",
+        "nrwl"
+    ]
 }

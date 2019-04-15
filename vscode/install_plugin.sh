@@ -38,3 +38,4 @@ code --install-extension oenraads.bracket-pair-colorize
 code --install-extension chakrounanas.turbo-console-log
 code --install-extension formulahendry.auto-complete-tag
 code --install-extension zignd.html-css-class-completion
+code --install-extension platformio.platformio-ide
