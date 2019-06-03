@@ -33,6 +33,8 @@
     "window.titleBarStyle": "custom",
     "git.enableSmartCommit": true,
     "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
     "git.autofetch": true,
     "todo-tree.defaultHighlight": {
         "icon": "alert",
@@ -52,8 +54,17 @@
     },
     "breadcrumbs.enabled": true,
     "cSpell.userWords": [
-        "goud",
-        "nestjs",
-        "nrwl"
-    ]
+      "Injectable",
+      "Shorttrack",
+      "aliexpress",
+      "daemonset",
+      "goud",
+      "kubeadm",
+      "kubernetes",
+      "nestjs",
+      "nrwl"
+    ],
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
