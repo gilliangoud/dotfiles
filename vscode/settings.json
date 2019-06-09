@@ -69,5 +69,6 @@
     },
     "[json]": {
       "editor.defaultFormatter": "HookyQR.beautify"
-    }
+    },
+    "git.confirmSync": false
 }
