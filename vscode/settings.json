@@ -28,7 +28,7 @@
     "editor.renderWhitespace": "all",
     "files.autoSave": "onFocusChange",
     "terminal.integrated.lineHeight": 1.6,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": 0,
     "editor.minimap.enabled": false,
     "window.titleBarStyle": "custom",
     "git.enableSmartCommit": true,
