@@ -63,7 +63,8 @@
       "kubeadm",
       "kubernetes",
       "nestjs",
-      "nrwl"
+      "nrwl",
+      "numpy"
     ],
     "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -71,5 +72,20 @@
     "[json]": {
       "editor.defaultFormatter": "HookyQR.beautify"
     },
-    "git.confirmSync": false
+    "git.confirmSync": false,
+    "todo-tree.highlights.customHighlight": {
+      "TODO": {
+        "icon": "check"
+      },
+      "FIXME": {
+        "foreground": "red",
+        "iconColour": "yellow"
+      }
+    },
+    "todo-tree.highlights.defaultHighlight": {
+      "icon": "alert",
+      "type": "text",
+      "foreground": "red",
+      "iconColour": "blue"
+    }
 }
